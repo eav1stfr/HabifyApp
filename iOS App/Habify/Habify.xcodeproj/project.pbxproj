@@ -10,7 +10,6 @@
 		AFF50C102D9E70BA0098390D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF50C0F2D9E70BA0098390D /* AppDelegate.swift */; };
 		AFF50C122D9E70BA0098390D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF50C112D9E70BA0098390D /* SceneDelegate.swift */; };
 		AFF50C142D9E70BA0098390D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF50C132D9E70BA0098390D /* ViewController.swift */; };
-		AFF50C172D9E70BA0098390D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF50C152D9E70BA0098390D /* Main.storyboard */; };
 		AFF50C1A2D9E70BA0098390D /* Habify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFF50C182D9E70BA0098390D /* Habify.xcdatamodeld */; };
 		AFF50C1C2D9E70BB0098390D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF50C1B2D9E70BB0098390D /* Assets.xcassets */; };
 		AFF50C1F2D9E70BB0098390D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF50C1D2D9E70BB0098390D /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		AFF50C0F2D9E70BA0098390D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF50C112D9E70BA0098390D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AFF50C132D9E70BA0098390D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFF50C162D9E70BA0098390D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFF50C192D9E70BA0098390D /* Habify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habify.xcdatamodel; sourceTree = "<group>"; };
 		AFF50C1B2D9E70BB0098390D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF50C1E2D9E70BB0098390D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				AFF50C0F2D9E70BA0098390D /* AppDelegate.swift */,
 				AFF50C112D9E70BA0098390D /* SceneDelegate.swift */,
 				AFF50C132D9E70BA0098390D /* ViewController.swift */,
-				AFF50C152D9E70BA0098390D /* Main.storyboard */,
 				AFF50C1B2D9E70BB0098390D /* Assets.xcassets */,
 				AFF50C1D2D9E70BB0098390D /* LaunchScreen.storyboard */,
 				AFF50C202D9E70BB0098390D /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				AFF50C1F2D9E70BB0098390D /* LaunchScreen.storyboard in Resources */,
 				AFF50C1C2D9E70BB0098390D /* Assets.xcassets in Resources */,
-				AFF50C172D9E70BA0098390D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AFF50C152D9E70BA0098390D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFF50C162D9E70BA0098390D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFF50C1D2D9E70BB0098390D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +284,6 @@
 				INFOPLIST_FILE = Habify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +311,6 @@
 				INFOPLIST_FILE = Habify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
